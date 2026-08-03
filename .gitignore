@@ -1,0 +1,7 @@
+bin/
+obj/
+installer/
+*.user
+.vs/
+reviews/
+documentation/developer/

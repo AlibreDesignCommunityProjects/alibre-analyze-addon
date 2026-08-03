@@ -1,0 +1,10 @@
+<AlibreDesignAddOn specificationVersion="2" friendlyName="Analyze">
+   <Author name="ADCP" link="https://github.com/"/>
+   <Copyright>Copyright (c) 2026</Copyright>
+   <DLL type="Managed" loadedWhen="Startup" location="ADCP.Tools.Analyze.dll"/>
+   <Icon location="logo.ico"/>
+   <Menu text="Analyze"/>
+   <Description>Read-only part inspector that reports all available AlibreX data.</Description>
+   <Workspace type="Always"/>
+   <Property name="Identifier" value="{c3f8768b-fb5c-438d-a6dc-a0c1a9939a46}"/>
+</AlibreDesignAddOn>
