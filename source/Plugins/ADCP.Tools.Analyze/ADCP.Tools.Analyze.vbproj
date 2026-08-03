@@ -18,7 +18,8 @@
 
   <PropertyGroup>
     <AlibreRefDir Condition="'$(AlibreProgramDir)' != '' And Exists('$(AlibreProgramDir)\AlibreX.dll')">$(AlibreProgramDir)</AlibreRefDir>
-    <AlibreRefDir Condition="'$(AlibreRefDir)' == ''">$(MSBuildThisFileDirectory)..\..\lib</AlibreRefDir>
+    <AlibreRefDir Condition="'$(AlibreRefDir)' == ''">$([System.IO.Directory]::GetDirectories('C:\Program Files', 'Alibre Design*')[0])\Program</AlibreRefDir>
+    <AlibreRefDir Condition="'$(AlibreRefDir)' == '' Or !Exists('$(AlibreRefDir)\AlibreX.dll')">$(MSBuildThisFileDirectory)..\..\lib</AlibreRefDir>
   </PropertyGroup>
 
   <ItemGroup>
