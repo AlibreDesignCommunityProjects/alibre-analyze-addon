@@ -2,11 +2,11 @@
 #define MyAppVersion "1.0"
 #define MyAppPublisher "Alibre Design Community Projects"
 #define MyAppURL "https://github.com/AlibreDesignCommunityProjects/alibre-analyze-addon"
-#define MyAppDescription "Standalone Alibre Design add-on that creates box, cylinder, sphere, and cone analyze"
+#define MyAppDescription "Standalone Alibre Design add-on that reports all available AlibreX data for a part"
 #define BuildDir "Plugins\ADCP.Tools.Analyze\bin\Debug\net481"
 
 [Setup]
-AppId={{B7A9F4C2-1E63-4D58-9C0A-3F2D6E8A1B44}
+AppId={{2BD3CDBB-772B-41F0-89AF-08511DB91822}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 AppVerName={#MyAppName} {#MyAppVersion}
