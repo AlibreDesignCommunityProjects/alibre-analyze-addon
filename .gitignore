@@ -1,0 +1,11 @@
+bin/
+obj/
+installer/
+*.user
+.vs/
+reviews/
+documentation/developer/
+
+# Proprietary Alibre libraries - never commit
+source/lib/AlibreX.dll
+source/lib/AlibreAddOn.dll
